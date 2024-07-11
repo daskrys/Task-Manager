@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function CountButton({count, onClick}: {count: number, onClick: () => void}) {
@@ -29,7 +28,6 @@ function App() {
         </a>
       </div>
       <div className="card">
-        <CountButton count={count} onClick={handleClick}/>
         <CountButton count={count} onClick={handleClick}/>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
